@@ -4482,6 +4482,9 @@ a {
 .logo {
   color: #333;
   text-align: center; }
+  .logo a {
+    color: #333;
+  }
 
 .nav-links {
   padding: 20px 0 20px 0;
@@ -4524,10 +4527,16 @@ a {
     text-transform: none;
     color: #888; }
 
+.date {
+  text-align: center;
+  margin: 30px 0;
+}
+
 .interview {
   margin: 20px 0; }
   .interview .byline {
-    margin: 20px 0; }
+    margin: 20px 0;
+    text-align: center; }
   .interview .content {
     margin: 10px 0; }
     .interview .content .question {
